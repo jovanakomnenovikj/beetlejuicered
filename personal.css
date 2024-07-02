@@ -1,0 +1,463 @@
+body {
+    font-family: Serif;
+    overflow-x: hidden;
+    color: black;
+}
+#desktop-nav{
+    height: 110px;
+    background-color: #8200af;
+    font-weight: bold;
+}
+
+#desktop-nav > a{
+    font-size: 55px;
+    color: black;
+    display: table-cell;
+    text-decoration-line: none;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#desktop-nav > div > ul{
+    display: flex;
+    float: right;
+    margin-right: 10px;
+    margin-top: -35px;
+}
+#desktop-nav > div > ul{
+    list-style: none;
+}
+
+#desktop-nav > div > ul > li:nth-child(1) > a{
+    color: black;
+    text-decoration-line: none;
+    margin-right: 25px;
+    font-size: 30px;
+}
+
+#desktop-nav > div > ul > li:nth-child(2) > a{
+    color: black;
+    text-decoration-line: none;
+    margin-right: 25px;
+    font-size: 30px;
+}
+
+#desktop-nav > div > ul > li:nth-child(3) > a{
+    color: black;
+    text-decoration-line: none;
+    margin-right: 25px;
+    font-size: 30px;
+}
+
+#desktop-nav > div > ul > li:nth-child(4) > a{
+    color: black;
+    text-decoration-line: none;
+    margin-right: 25px;
+    font-size: 30px;
+}
+
+#desktop-nav > div > ul > li:nth-child(5) > a{
+    color: black;
+    text-decoration-line: none;
+    margin-right: 25px;
+    font-size: 30px;
+}
+#profile > div.section__pic-container > img{
+    width: 215px;
+    margin-top: 90px;
+    margin-left: 350px;
+}
+#profile > div.section__pic-container{
+    float: left;
+    padding-right: 100px;
+    margin-top: -100px;
+}
+
+#profile > div.section__text{
+    margin-top: 150px;
+}
+#profile{
+    margin-right: 65px;
+}
+#profile > div.section__text > h1{
+    font-size: 40px;
+}
+#profile > div.section__text > p{
+    color: gray;
+    font-size: 25px;
+    margin-top: -15px;
+}
+#profile > div.section__text > div.text-container > h3{
+    font-size: x-large;
+    line-height: 40px;
+}
+#socials-container {
+    margin-top: 35px;
+}
+#about{
+    margin-top: 170px;
+}
+#about > div > div > h1{
+    line-height: 100px;
+}
+#about > div > div > div.text-container{
+    margin-bottom: 70px;
+}
+#socials-container > a:nth-child(1) > img{
+    width: 60px;
+}
+#socials-container > a:nth-child(2) > img{
+    width: 55px;
+}
+#about > div > div{
+    margin-top: 100px;
+}
+
+#about > div > div > h1{
+    font-size: 40px;
+    margin-left: 50px;
+    color: rebeccapurple;
+    border-top: 3px solid black;
+}
+#about > div > div > div.text-container{
+    margin-left: 75px;
+    font-size: 20px;
+    text-align: -webkit-left;
+}
+#about > div > div > div.about-containers > div{
+    border: 2px solid purple;
+    width: 1785px;
+    height: 240px;
+    font-size: 23px;
+    padding: 25px;
+    margin-left: 70px;
+    line-height: 30px;
+}
+
+#about > div > div > div.about-containers > div{
+    background: url("/images/graduateee.webp")no-repeat;
+    background-size: contain;
+    background-position: right;
+    padding-left: 20px;
+    width: 1800px;
+    height: 300px;
+    margin-left: 75px;
+}
+
+#hobbies > h1{
+    font-size: 40px;
+    border-top: 3px solid black;
+    margin-top: 150px;
+    margin-left: 50px;
+    line-height: 100px;
+    color: rebeccapurple;
+}
+
+#hobbies > div > div:nth-child(1) > h3{
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: #a4a4a4;
+    color: #480072;
+    margin-top: -1px;
+    margin-left: -210px;
+}
+
+#hobbies > div{
+    border: 10px solid black;
+    border-style: dashed;
+    height: 1400px;
+}
+
+#hobbies > div > div:nth-child(1) > img:nth-child(2){
+    width: 217px;
+    padding: 30px;
+    border: 5px solid black;
+    border-style: outset;
+    margin: 5px;
+}
+#hobbies > div > div:nth-child(1) > img:nth-child(3){
+    width: 204px;
+    padding: 30px;
+    border: 5px solid black;
+    border-style: outset;
+    margin: 5px;
+}
+#hobbies > div > div:nth-child(1) > img:nth-child(4){
+    width: 249px;
+    padding: 30px;
+    border: 5px solid black;
+    border-style: outset;
+    margin: 5px;
+}
+#hobbies > div > div:nth-child(1) > img:nth-child(5){
+    width: 224px;
+    padding: 30px;
+    border: 5px solid black;
+    border-style: outset;
+    margin: 5px;
+}
+#hobbies > div > div:nth-child(1) > img:nth-child(6){
+    width: 219px;
+    padding: 30px;
+    border: 5px solid black;
+    border-style: outset;
+    margin: 5px;
+}
+#hobbies > div > div:nth-child(1) > img:nth-child(7){
+    width:227px;
+    padding: 30px;
+    border: 5px solid black;
+    border-style: outset;
+    margin: 5px;
+}
+
+#hobbies > div > div:nth-child(1){
+    margin-left: 210px;
+}
+#hobbies > div{
+    width: 1800px;
+    margin-left: 100px;
+}
+
+#books > div > div > h1{
+    font-size: 40px;
+    border-top: 3px solid black;
+    margin-top: 150px;
+    margin-left: 50px;
+    line-height: 100px;
+    color: rebeccapurple;
+}
+
+#books > div > div > div{
+    text-align: center;
+    border: 20px solid gray;
+    border-style: groove;
+    height: 900px;
+    width: 1600px;
+    color: white;
+    margin-left: 180px;
+    background-color: #000000;
+    align-content: center;
+}
+#books > div > div > div > p{
+    font-size: 40px;
+}
+#books > div > div > div > div:nth-child(2) > img{
+    width: 360px;
+    height: 500px;
+}
+#books > div > div > div > div:nth-child(2){
+    float: left;
+}
+#books > div > div > div > div:nth-child(3){
+    float: right;
+}
+
+#books > div > div > div > div:nth-child(2) > img{
+    float: left;
+    margin-left: 300px;
+}
+#books > div > div > div > div:nth-child(2) > p{
+    text-align: start;
+    width: 370px;
+    float: none;
+    line-height: 1.5em;
+    margin-left: 300px;
+    font-size: 20px;
+}
+#books > div > div > div > div:nth-child(3) > img{
+    margin-right: 300px;
+    float: right;
+}
+#books > div > div > div > div:nth-child(3) > p{
+    text-align: start;
+    width: 340px;
+    height: 50px;
+    line-height: 1.5em;
+    margin-top: 510px;
+    font-size: 20px;
+}
+
+#contact > div > h1 {
+    font-size: 40px;
+    border-top: 3px solid black;
+    margin-top: 150px;
+    margin-left: 50px;
+    line-height: 100px;
+    color: rebeccapurple;
+}
+
+#contact > div{
+    height: 700px;
+}
+
+#contact > div > form{
+    text-align: center;
+    padding: 50px;
+}
+
+#Name{
+    font-size: 96%;
+    margin-left: -106px;
+    border: 3px solid black;
+    background-color: #dbc4fc;
+
+}
+
+#Email{
+    font-size: 99%;
+    border: 3px solid black;
+    background-color: #dbc4fc;
+}
+
+#Message {
+    width: 410px;
+    text-align: center;
+    height: 300px;
+    font-size: 20px;
+    border: solid;
+    margin-top: 10px;
+    background-color: #dbc4fc;
+}
+
+#contact > div > form > button{
+    border: 3px solid;
+}
+body > footer > div {
+    background-color: #8200AFFF;
+    height: 60px;
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#about > div > div > div.text-container > h3{
+    margin-right: 20px;
+}
+
+#about > div > div > div.about-containers > div{
+    width: 1305px;
+    height: 200px;
+    font-size: 20px;
+}
+
+#hobbies > div{
+    width: 1300px;
+    height: 950px;
+}
+
+#books > div > div > div{
+    width: 1100px;
+}
+
+#books > div > div > h1{
+    font-size: 40px;
+    border-top: 3px solid black;
+    margin-top: 150px;
+    margin-left: 50px;
+    line-height: 100px;
+    color: rebeccapurple;
+}
+
+#books > div > div > div{
+    width: 1100px;
+}
+
+#books > div > div > div > div:nth-child(2){
+    margin-left: 30px;
+    float: left;
+}
+
+#books > div > div > div > div:nth-child(2) > img{
+    float: left;
+    margin-left: 90px;
+}
+
+#books > div > div > div > div:nth-child(2) > p{
+    text-align: start;
+    width: 340px;
+    float: none;
+    line-height: 1.5em;
+    margin-left: 100px;
+    font-size: 18px;
+    margin-top: 510px;
+}
+
+#books > div > div > div > div:nth-child(3){
+    margin-right: -150px;
+    float: right;
+}
+#books > div > div > div > div:nth-child(3) > p{
+    text-align: start;
+    width: 360px;
+    height: 50px;
+    line-height: 1.5em;
+    margin-top: 510px;
+    font-size: 18px;
+}
+#contact > div > form > button{
+    background-color: #dbc4fc;
+}
+
+#hobbies > div > div:nth-child(1) > img:nth-child(2):hover{
+    background-color: black;
+}
+#hobbies > div > div:nth-child(1) > img:nth-child(3):hover{
+    background-color: black;
+}
+#hobbies > div > div:nth-child(1) > img:nth-child(4):hover{
+    background-color: black;
+}
+#hobbies > div > div:nth-child(1) > img:nth-child(5):hover{
+    background-color: black;
+}
+#hobbies > div > div:nth-child(1) > img:nth-child(6):hover{
+    background-color: black;
+}
+#hobbies > div > div:nth-child(1) > img:nth-child(7):hover{
+    background-color: black;
+}
+
+#desktop-nav > div > ul > li:nth-child(1) > a:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+#desktop-nav > div > ul > li:nth-child(2) > a:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+
+#desktop-nav > div > ul > li:nth-child(3) > a:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+
+#desktop-nav > div > ul > li:nth-child(4) > a:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+
+#desktop-nav > div > ul > li:nth-child(5) > a:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+#profile > div.section__pic-container > img{
+    border: 3px solid;
+}
+
+#Name:hover{
+    background-color: rgba(227, 227, 227, 0.92);
+}
+
+#Email:hover{
+    background-color: rgba(227, 227, 227, 0.92);
+}
+#Message:hover{
+    background-color: rgba(227, 227, 227, 0.92);
+}
+#contact > div > form > button:hover {
+    background-color: rgba(227, 227, 227, 0.92);
+}
